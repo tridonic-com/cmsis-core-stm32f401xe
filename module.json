@@ -1,6 +1,6 @@
 {
   "name": "cmsis-core-nucleo-f401re",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CMSIS Core Implementation for nucleo-f401re",
   "keywords": [
     "cmsis"
@@ -12,7 +12,9 @@
   },
   "homepage": "https://github.com/ARMmbed/cmsis-core-nucleo-f401re",
   "license": "Apache-2",
-  "extraIncludes": ["cmsis-core-nucleo-f401re"],
+  "extraIncludes": [
+    "cmsis-core-nucleo-f401re"
+  ],
   "dependencies": {
     "cmsis-core": "ARMmbed/cmsis-core#~0.0.1"
   },

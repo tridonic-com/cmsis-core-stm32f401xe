@@ -294,7 +294,6 @@ typedef struct
   __IO uint32_t LCKR;     /*!< GPIO port configuration lock register, Address offset: 0x1C      */
   __IO uint32_t AFR[2];   /*!< GPIO alternate function registers,     Address offset: 0x20-0x24 */
 } GPIO_TypeDef;
-#warning "mab: BSRRL/BSRRH"
 
 /** 
   * @brief System configuration controller

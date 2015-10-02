@@ -1,7 +1,7 @@
 {
   "name": "cmsis-core-st-stm32f401xe",
   "version": "0.0.0",
-  "description": "AST's CMSIS Core Implementation for STM32F401xE",
+  "description": "AST's CMSIS Core Implementation for Nucleo STM32F401xE boards",
   "keywords": [
     "cmsis"
   ],

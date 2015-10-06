@@ -621,9 +621,9 @@ uint8_t SetSysClock_PLL_HSE(uint8_t bypass)
   /* Select PLL as system clock source and configure the HCLK, PCLK1 and PCLK2 clocks dividers */
   RCC_ClkInitStruct.ClockType      = (RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2);
   RCC_ClkInitStruct.SYSCLKSource   = RCC_SYSCLKSOURCE_PLLCLK; // 84 MHz
-  RCC_ClkInitStruct.AHBCLKDivider  = RCC_SYSCLK_DIV1;         // 84 MHz
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;           // 42 MHz
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;           // 84 MHz
+  RCC_ClkInitStruct.AHBCLKDivider  = RCC_SYSCLK_DIV2;         // 42 MHz // betzw - WAS: RCC_SYSCLK_DIV1 
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;           // 21 MHz
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;           // 42 MHz
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
   {
     return 0; // FAIL

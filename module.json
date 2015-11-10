@@ -1,6 +1,6 @@
 {
   "name": "cmsis-core-st-stm32f401xe",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CMSIS Core Implementation for nucleo-f401re",
   "keywords": [
     "cmsis"

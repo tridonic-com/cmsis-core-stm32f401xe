@@ -1,22 +1,27 @@
 {
-  "name": "cmsis-core-nucleo-f401re",
+  "name": "cmsis-core-st-stm32f401xe",
   "version": "0.0.1",
   "description": "CMSIS Core Implementation for nucleo-f401re",
   "keywords": [
-    "cmsis"
+    "cmsis",
+    "stm32f401xe"
   ],
-  "author": "Bogdan Marinescu <bogdan.marinescu@arm.com>",
+  "author": "wolfgang.betz@st.com",
   "repository": {
-    "url": "git@github.com:ARMmbed/cmsis-core-nucleo-f401re.git",
+    "url": "https://github.com/ARMmbed/cmsis-core-st-stm32f401xe.git",
     "type": "git"
   },
-  "homepage": "https://github.com/ARMmbed/cmsis-core-nucleo-f401re",
-  "license": "Apache-2",
+  "homepage": "https://github.com/ARMmbed/cmsis-core-st-stm32f401xe",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
   "extraIncludes": [
-    "cmsis-core-nucleo-f401re"
+    "cmsis-core-st-stm32f401xe"
   ],
   "dependencies": {
-    "cmsis-core": "ARMmbed/cmsis-core#~0.0.1"
-  },
-  "targetDependencies": {}
+    "cmsis-core": "*"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "cmsis-core-stm32f401xe",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CMSIS Core Implementation for STM32F401xE",
   "keywords": [
     "cmsis",

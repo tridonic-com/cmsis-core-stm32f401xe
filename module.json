@@ -1,17 +1,17 @@
 {
-  "name": "cmsis-core-st-stm32f401xe",
+  "name": "cmsis-core-stm32f401xe",
   "version": "0.0.1",
-  "description": "CMSIS Core Implementation for nucleo-f401re",
+  "description": "CMSIS Core Implementation for STM32F401xE",
   "keywords": [
     "cmsis",
     "stm32f401xe"
   ],
   "author": "wolfgang.betz@st.com",
   "repository": {
-    "url": "https://github.com/ARMmbed/cmsis-core-st-stm32f401xe.git",
+    "url": "https://github.com/ARMmbed/cmsis-core-stm32f401xe.git",
     "type": "git"
   },
-  "homepage": "https://github.com/ARMmbed/cmsis-core-st-stm32f401xe",
+  "homepage": "https://github.com/ARMmbed/cmsis-core-stm32f401xe",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
@@ -19,7 +19,7 @@
     }
   ],
   "extraIncludes": [
-    "cmsis-core-st-stm32f401xe"
+    "cmsis-core-stm32f401xe"
   ],
   "dependencies": {
     "cmsis-core": "*"

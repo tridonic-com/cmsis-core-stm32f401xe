@@ -1,6 +1,6 @@
 {
   "name": "cmsis-core-stm32f401xe",
-  "version": "0.2.0-tri-0.0.2",
+  "version": "0.2.0-tri-0.0.5",
   "description": "CMSIS Core module for stm32f401xe microcontrollers",
   "keywords": [],
   "author": "Brendan Moran <brendan.moran@arm.com>",
@@ -15,7 +15,7 @@
     "cmsis-core-stm32f401xe"
   ],
   "dependencies": {
-    "cmsis-core": "tridonic-com/cmsis-core#1.1.0-tri-0.0.2"
+    "cmsis-core": "tridonic-com/cmsis-core#1.1.0-tri-0.0.5"
   },
   "targetDependencies": {}
 }

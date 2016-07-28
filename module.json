@@ -15,7 +15,7 @@
     "cmsis-core-stm32f401xe"
   ],
   "dependencies": {
-    "cmsis-core": "tridonic-com/cmsis-core#1.2.0-tri-0.5.1"
+    "cmsis-core": "tridonic-com/cmsis-core#b1.2.0-tri-0.5.2"
   },
   "targetDependencies": {}
 }

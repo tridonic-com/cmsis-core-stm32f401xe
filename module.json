@@ -1,6 +1,6 @@
 {
   "name": "cmsis-core-stm32f401xe",
-  "version": "0.2.0-tri-0.8.0",
+  "version": "0.2.0-tri-0.9.0",
   "description": "CMSIS Core module for stm32f401xe microcontrollers",
   "keywords": [],
   "author": "Brendan Moran <brendan.moran@arm.com>",
